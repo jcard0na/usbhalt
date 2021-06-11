@@ -1,0 +1,12 @@
+[package]
+name = "usbhalt"
+version = "0.1.0"
+authors = ["Javier Cardona <javier.cardona@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rmesg = { version = "1.0.0", features = ["sync"] }
+system_shutdown = "3.0.0"
+uptime_lib = "0.2.1"
